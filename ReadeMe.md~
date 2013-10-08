@@ -1,0 +1,28 @@
+As part of the Structure of Programming langauges Course, we implemented lexer, parser and Abstract Syntax Tree builder for the language whose lexical elements are below.
+
+Comments and white spaces:
+	/* and */		Single line comment // 
+		\n \b \t \r	White spaces
+
+
+Identifiers:
+	Case sensitive
+	
+
+can be of any length . They start with a letter and can contain _ and digits.
+
+Integer Literals:
+	One or more digits optionally preceded with a '+' or a '-'
+	(Return '+' or '-' if present as a separate token)
+Real Literals:
+	Integer followed by a '.' followed by zero or more digits
+Character literals:
+	Printable characters, including alphabets and digits in single quotes.
+	Escape characters such as '\n','\r','\t','\\','\"'
+String literals:
+	Enclosed in double quotes
+	Cannot include new lines
+Keywords:
+Class,  int, real, char, String, if,  else, while, new
+All the key words must be separated by a space. 
+
